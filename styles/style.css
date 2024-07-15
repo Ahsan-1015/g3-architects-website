@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* shared styels  */
+.display-flex {
+    display: flex;
+}
+
+.text-primary {
+    color: #FF900E;
+}
+
+/* dark 02 */
+.text-gray {
+    color: #424242;
+}
+
+/* dark03 */
+.text-light-gray {
+    color: #727272;
+}
+
+.primary-color {
+    color: rgb(19, 19, 19);
+}
+
+.btn-primary{
+    background-color:rgb(255, 144, 14) ;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
+/* navber styles start  */
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 99.5vw;
+    /* height: 99.5vh; */
+    margin: 0% auto;
+
+    /* border: red 2px solid; */
+
+}
+
+.header-content {
+   
+    width: 85vw;
+    /* height: 98vh; */
+    margin: 0% auto;
+   padding: 2%;
+    /* border: tomato 2px solid; */
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.brand {
+    /* width: 15vw; */
+    font-size: 2.5rem;
+    margin: 0;
+    /* border: green 2px solid; */
+}
+
+.navber-link {
+
+    list-style: none;
+    gap: 12%;
+    
+
+
+    width: 25vw;
+    align-items: center;
+    font-size: 1.1rem;
+
+    /* border: #FF900E 2px solid; */
+}
+
+.navber-link>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* banner section styels */
+
+.banner {
+    width: 85vw;
+    /* border: red 2px solid; */
+}
+
+.banner-text {
+    width: 35vw;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center
+}
+
+.banner-text-title {
+    font-size: 3.9rem;
+    color: rgb(19, 19, 19);
+    font-weight: 700;
+    margin: 2% auto;
+
+}
+
+.banner-text-subtitle {
+    /* color: rgb(114, 114, 114); */
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+.banner-image{
+    width: 85vw;
+    margin-top: 2%;
+
+    /* border: violet 2px solid; */
+}
+.banner-image>img{
+    width: 100%;
+    
+}

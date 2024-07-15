@@ -1,0 +1,76 @@
+/* mobile responsiive */
+
+/* header sectionn styels  */
+
+@media screen and (max-width:576px) {
+
+    .navbar,
+    .navber-link {
+        flex-direction: column;
+    }
+
+    .brand {
+        font-size: 1.5rem;
+        position: relative;
+        top: 30px;
+    }
+
+    .navber-link {
+        gap: 10px;
+        margin-left: 200px;
+        margin-top: -30px;
+        font-size: 1rem;
+
+    }
+
+    .banner-text {
+        width: 90vw;
+
+    }
+
+    .banner-text-title {
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+
+    .banner {
+        margin-top: 20px;
+    }
+}
+
+
+
+/* tablet responsive */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .navber-link {
+        flex-direction: column;
+    }
+
+    .navber-link {
+        gap: 10px;
+        margin-left: 200px;
+        /* margin-top: -30px; */
+        font-size: 1rem;
+
+    }
+
+    .banner-text {
+        width: 80vw;
+        margin-top: 50px;
+
+    }
+
+    .banner-text-title {
+        margin: 2% auto;
+        font-size: 3rem;
+    }
+
+    .banner-text-subtitle{
+        font-size: 1.1rem;
+    }
+    .banner-image {
+        margin-top: 30px;
+    }
+}
